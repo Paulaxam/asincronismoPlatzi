@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d src/proyecto/assets"
+    "deploy": "gh-pages -d"
   },
   "type": "module",
   "keywords": [
