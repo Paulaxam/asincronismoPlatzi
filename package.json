@@ -1,16 +1,15 @@
 {
   "name": "curso-asincronismo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "callback": "node src/callback/challenge.js"
+    "deploy": "gh-pages -d src/proyecto"
   },
   "type": "module",
   "keywords": [
-    "javascript"
+    "javascript node API"
   ],
-  "author": "paula cudicio <paulacudicio@gmail.com>",
+  "author": "Paula Cudicio <paulacudicio@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.2.10",
@@ -18,5 +17,14 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paulaxam/asincronismoPlatzi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Paulaxam/asincronismoPlatzi/issues"
+  },
+  "homepage": "https://github.com/Paulaxam/asincronismoPlatzi#readme",
+  "description": ""
 }
